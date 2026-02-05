@@ -3,7 +3,7 @@ copyright = "Copyright © 2022 - 2025 Mark Dumay."
 enableGitInfo = true
 
 # additional settings
-baseURL = "https://example.com/"
+baseURL = "https://bangun.yakyuk.biz.id/"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true
@@ -130,3 +130,7 @@ home = ["HTML", "RSS", "REDIR", "netlify", "server"]
     [[segments.headers.includes]]
        kind = '{home}'
        output = '{netlify,server}'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
