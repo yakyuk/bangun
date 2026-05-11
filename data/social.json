@@ -1,0 +1,19 @@
+{
+  "main": [
+    {
+      "name": "youtube",
+      "icon": "fab fa-youtube",
+      "link": "https://www.youtube.com/@YakyukBiz"
+    },
+    {
+      "name": "tiktok",
+      "icon": "fab fa-tiktok",
+      "link": "https://www.tiktok.com/@yakyuk.biz"
+    },
+    {
+      "name": "instagram",
+      "icon": "fab fa-instagram",
+      "link": "http://instagram.com/yakyuk.biz"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Beranda"
+url = "/"
+weight = 1
+
+[[main]]
+weight = 2
+name = "Jasa"
+
+[[main]]
+parent = "Jasa"
+name = "Bangun baru"
+url = "/jasa/bangun-baru"
+weight=1
+
+[[main]]
+parent = "Jasa"
+name = "Renovasi"
+url = "/jasa/renovasi"
+weight=2
+
+[[main]]
+parent = "Jasa"
+name = "Perbaikan"
+url = "/jasa/perbaikan"
+weight=3
+
+[[main]]
+parent = "Jasa"
+name = "Las & aluminium"
+url = "/jasa/las-dan-aluminium"
+weight=4
+
+[[main]]
+parent = "Jasa"
+name = "Instalasi listrik"
+url = "/jasa/instalasi-listrik"
+weight=5
+
+[[main]]
+name = "Tentang kami"
+url = "/about"
+weight = 3
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 4
+
+
+[[main]]
+name = "Kontak"
+url = "/contact"
+weight = 5
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Elements"
+url = "/elements"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 3

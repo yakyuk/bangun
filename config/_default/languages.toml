@@ -1,0 +1,13 @@
+################ Indonesian language ##################
+[id]
+languageName = "Id"
+languageCode = "id-id"
+contentDir = "content/indonesian"
+weight = 1
+
+################ English language ##################
+[en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 2

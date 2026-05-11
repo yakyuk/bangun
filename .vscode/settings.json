@@ -1,0 +1,6 @@
+{
+  "tailwindCSS.experimental.configFile": "./themes/hugoplate/assets/css/main.css",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313"
+}
