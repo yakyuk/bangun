@@ -75,10 +75,10 @@ content = "<span class='text-center block'>♥️ Ingin konsultasi?  <a class='u
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
-twitter = "zeon_studio"
+keywords = ["Yakyuk Bangun", "jasa tukang", "kontraktor", "sleman", "yogyakarta", "booth container", "booth jualan", "pagar", "kanopi", "etalase kaca", "etalase", "aluminium"]
+description = "Solusi Tuntas Bangun dan Renovasi juga pembuatan Booth Jualan Container - Kanopi - Etalase/Lemari kaca - Pagar."
+author = "cipto"
+twitter = "cipto_hd"
 image = "images/og-image.png"
 
 
