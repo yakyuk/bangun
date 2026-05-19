@@ -413,6 +413,7 @@
       "id",
       "image",
       "link",
+      "map",
       "message",
       "name",
       "nav-menu",
