@@ -75,8 +75,8 @@ content = "<span class='text-center block'>♥️ Ingin konsultasi?  <a class='u
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Yakyuk Bangun", "jasa tukang", "kontraktor", "sleman", "yogyakarta", "booth container", "booth jualan", "pagar", "kanopi", "etalase kaca", "etalase", "aluminium"]
-description = "Solusi Tuntas Bangun dan Renovasi juga pembuatan Booth Jualan Container - Kanopi - Etalase/Lemari kaca - Pagar."
+keywords = ["jasa tukang", "jasa tukang sleman", "kontraktor", "sleman", "yogyakarta", "booth container", "booth jualan", "pagar", "kanopi", "etalase kaca", "etalase", "aluminium"]
+description = "Solusi tuntas bangun baru dan renovasi juga melayani pembuatan booth jualan kontainer, kanopi, etalase/lemari kaca, pagar. Jasa Tukang Sleman Yogyakarta, handal terpercaya"
 author = "cipto"
 twitter = "cipto_hd"
 image = "images/og-image.png"
