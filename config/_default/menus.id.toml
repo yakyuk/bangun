@@ -59,13 +59,13 @@ weight = 5
 
 # footer menu
 [[footer]]
-name = "About"
+name = "Tentang kami"
 url = "/about"
 weight = 1
 
 [[footer]]
-name = "Tentang kami"
-url = "/about"
+name = "Blog"
+url = "/blog"
 weight = 2
 
 [[footer]]
