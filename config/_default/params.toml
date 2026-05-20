@@ -70,7 +70,7 @@ show_categories = true
 [announcement]
 enable = true
 expire_days = 7
-content = "<span class='text-center block'>♥️ Ingin konsultasi?  <a class='underline' href='https://s.id/Yakyuk-Bangun' target='_blank' rel='noopener'>Klik sini ya</a></span>"
+content = "<span class='text-center block'>♥️ Ingin konsultasi?  <a class='underline' href='https://wa.me/628112951080?text=Hello%2C+Yakyuk+Bangun.+Saya+mau+konsultasi' target='_blank' rel='noopener'>Klik sini ya</a></span>"
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
