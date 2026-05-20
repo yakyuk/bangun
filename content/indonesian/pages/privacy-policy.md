@@ -1,33 +1,129 @@
 ---
-title: "Privacy"
+title: "Kebijakan Privasi"
 # meta title
 meta_title: ""
 # meta description
-description: "This is meta description"
+description: "Kebijakan privasi terkait data konsumen di bisnis kami"
 # save as draft
 draft: false
 ---
 
-#### Responsibility of Contributors
+# Kebijakan Privasi
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+**Terakhir diperbarui:** 20 Mei 2026
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+Selamat datang di website kami. Privasi pengunjung adalah hal yang penting bagi kami. Halaman Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, menyimpan, dan melindungi informasi pengguna pada website jasa tukang kami.
 
-#### Gathering of Personal Information
+Dengan menggunakan website ini, Anda dianggap telah membaca dan menyetujui isi Kebijakan Privasi berikut.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+---
 
-#### Protection of Personal- Information
+# 1. Informasi yang Kami Kumpulkan
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
+Kami dapat mengumpulkan beberapa informasi dari pengguna, antara lain:
 
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
+- Nama lengkap
+- Nomor telepon / WhatsApp
+- Alamat email
+- Alamat lokasi proyek
+- Detail kebutuhan jasa
+- Foto atau dokumen yang dikirim pengguna
+- Data teknis seperti alamat IP, jenis browser, dan perangkat
 
-#### Privacy Policy Changes
+Informasi tersebut dapat dikumpulkan saat pengguna:
 
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+- Menghubungi kami melalui formulir kontak
+- Mengirim pesan melalui WhatsApp
+- Meminta penawaran harga
+- Menggunakan layanan pada website kami
+
+---
+
+# 2. Penggunaan Informasi
+
+Informasi yang dikumpulkan digunakan untuk:
+
+- Menanggapi pertanyaan dan permintaan pengguna
+- Memberikan estimasi harga dan layanan
+- Menghubungi pengguna terkait proyek atau layanan
+- Meningkatkan kualitas website dan pelayanan
+- Keperluan administrasi dan dokumentasi proyek
+- Mengirim informasi promosi atau penawaran (jika disetujui pengguna)
+
+---
+
+# 3. Perlindungan Data Pengguna
+
+Kami berupaya menjaga keamanan informasi pengguna dengan langkah-langkah yang wajar untuk mencegah:
+
+- Akses tanpa izin
+- Penyalahgunaan data
+- Perubahan atau penghapusan data secara ilegal
+- Kebocoran informasi pribadi
+
+Namun, kami tidak dapat menjamin keamanan data sepenuhnya karena transmisi data melalui internet memiliki risiko tersendiri.
+
+---
+
+# 4. Penggunaan Cookie
+
+Website ini dapat menggunakan cookie untuk:
+
+- Menyimpan preferensi pengguna
+- Menganalisis trafik website
+- Meningkatkan pengalaman pengguna
+
+Pengguna dapat menonaktifkan cookie melalui pengaturan browser masing-masing.
+
+---
+
+# 5. Pembagian Informasi Kepada Pihak Ketiga
+
+Kami tidak menjual, menyewakan, atau membagikan informasi pribadi pengguna kepada pihak ketiga, kecuali:
+
+- Dibutuhkan untuk proses layanan
+- Diminta oleh hukum atau pihak berwenang
+- Dibutuhkan untuk melindungi hak dan keamanan kami
+
+---
+
+# 6. Tautan ke Situs Lain
+
+Website kami dapat berisi tautan ke situs pihak ketiga. Kami tidak bertanggung jawab atas isi maupun kebijakan privasi situs tersebut.
+
+Pengguna disarankan membaca kebijakan privasi dari setiap situs yang dikunjungi.
+
+---
+
+# 7. Hak Pengguna
+
+Pengguna berhak untuk:
+
+- Meminta akses terhadap data pribadi
+- Memperbarui atau memperbaiki data
+- Meminta penghapusan data tertentu
+- Menolak penggunaan data untuk promosi
+
+Permintaan dapat disampaikan melalui kontak yang tersedia pada website kami.
+
+---
+
+# 8. Perubahan Kebijakan Privasi
+
+Kami dapat memperbarui Kebijakan Privasi ini sewaktu-waktu tanpa pemberitahuan sebelumnya. Perubahan akan ditampilkan pada halaman ini beserta tanggal pembaruan terbaru.
+
+---
+
+# 9. Kontak Kami
+
+Jika Anda memiliki pertanyaan terkait Kebijakan Privasi ini, silakan hubungi kami melalui:
+
+- WhatsApp: [Nomor WhatsApp]
+- Email: [Alamat Email]
+- Alamat: [Alamat Usaha]
+
+---
+
+# Persetujuan
+
+Dengan menggunakan website ini, Anda menyetujui seluruh isi Kebijakan Privasi yang berlaku.

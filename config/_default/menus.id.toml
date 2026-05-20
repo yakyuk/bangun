@@ -64,11 +64,11 @@ url = "/about"
 weight = 1
 
 [[footer]]
-name = "Elements"
-url = "/elements"
+name = "Tentang kami"
+url = "/about"
 weight = 2
 
 [[footer]]
-name = "Privacy Policy"
+name = "Kebijakan Privasi"
 url = "/privacy-policy"
 weight = 3
