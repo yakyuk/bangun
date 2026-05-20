@@ -118,9 +118,8 @@ Kami dapat memperbarui Kebijakan Privasi ini sewaktu-waktu tanpa pemberitahuan s
 
 Jika Anda memiliki pertanyaan terkait Kebijakan Privasi ini, silakan hubungi kami melalui:
 
-- WhatsApp: [Nomor WhatsApp]
-- Email: [Alamat Email]
-- Alamat: [Alamat Usaha]
+- WhatsApp: [Yakyuk Bangun](https://s.id/Yakyuk-Bangun)
+- Alamat: Jl. Besi Jangkang, Sabelah Barat, Gg. Giri Mulyo, Besi, Sukoharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581
 
 ---
 
