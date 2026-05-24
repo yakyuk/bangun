@@ -55,8 +55,6 @@ Untuk menghasilkan landscape yang indah sekaligus fungsional, beberapa aspek ber
 - **Pencahayaan Taman** yang memberikan nilai estetika sekaligus meningkatkan keamanan pada malam hari.
 - **Sistem Drainase yang Baik** guna mencegah genangan air dan menjaga kondisi taman tetap optimal.
 
-> **Baca Juga:** 7 Keuntungan Strategis Menggunakan Jasa Pengelola Properti
-
 #### Pentingnya Jasa Profesional dalam Pengelolaan Landscape
 
 Pengelolaan landscape untuk kawasan perkantoran, komersial, maupun residensial membutuhkan lebih dari sekadar penanaman tanaman. Dibutuhkan perencanaan yang matang, tenaga kerja yang kompeten, serta program perawatan yang berkelanjutan agar kualitas taman tetap terjaga sepanjang waktu.
