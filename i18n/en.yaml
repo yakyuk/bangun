@@ -12,3 +12,10 @@ search_initial_message: Type something to search..
 search_navigate: to navigate
 search_select: to select
 search_close: to close
+full-name: Full Name
+john-doe: 'ex: Cipto Hadi'
+working-mail: Working Email
+john-doe-email: 'ex: cipto@yakyuk.biz.id'
+anything-else: Message to be sent
+message-goes-here: Type the message here...
+submit: Submit 

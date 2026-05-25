@@ -7,54 +7,65 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "About"
-url = "/about"
 weight = 2
+name = "Services"
 
 [[main]]
-name = "Elements"
-url = "/elements"
+parent = "Services"
+name = "Build new"
+url = "/services/build-new"
+weight=1
+
+[[main]]
+parent = "Services"
+name = "Renovation"
+url = "/services/renovation"
+weight=2
+
+[[main]]
+parent = "Services"
+name = "Repair"
+url = "/services/repair"
+weight=3
+
+[[main]]
+parent = "Services"
+name = "Welding & aluminium"
+url = "/services/welding-and-aluminium"
+weight=4
+
+[[main]]
+parent = "Services"
+name = "Electrical installation"
+url = "/services/electrical-installation"
+weight=5
+
+[[main]]
+name = "About Us"
+url = "/about"
 weight = 3
 
 [[main]]
-weight = 4
-name = "Pages"
-
-[[main]]
-parent = "Pages"
 name = "Blog"
 url = "/blog"
+weight = 4
+
 
 [[main]]
-parent = "Pages"
 name = "Contact"
 url = "/contact"
-
-[[main]]
-parent = "Pages"
-name = "Authors"
-url = "/authors"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "/categories"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
+weight = 5
 
 
 # footer menu
 [[footer]]
-name = "About"
+name = "About Us"
 url = "/about"
 weight = 1
 
 [[footer]]
-name = "Elements"
-url = "/elements"
+name = "Blog"
+url = "/blog"
 weight = 2
 
 [[footer]]

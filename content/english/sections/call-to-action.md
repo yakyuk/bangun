@@ -1,12 +1,12 @@
 ---
 enable: true
-title: "Ready to build your next project with Hugo?"
+title: "Ready to Bring Your Next Project to Life with Yakyuk Bangun?"
 image: "/images/call-to-action.png"
-description: "Experience the future of web development with Hugoplate and Hugo. Build lightning-fast static sites with ease and flexibility."
+description: "Our experienced craftsmen and construction professionals are ready to help turn your ideas into reality with quality workmanship and competitive pricing. Let’s get started today!"
 button:
   enable: true
-  label: "Fork Deploy and Edit Online 🚀"
-  link: "https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate"
+  label: "Start Your Project Today 🚀"
+  link: "https://s.id/Yakyuk-Bangun"
 
 # don't create a separate page
 build:
