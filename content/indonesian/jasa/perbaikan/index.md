@@ -3,7 +3,7 @@ title: "Perbaikan"
 # meta title
 meta_title: "Segala macam perbaikan bangunan bocor, retak, dan lainnya"
 # meta description
-description: "This is meta description"
+description: "Jasa perbaikan rumah dan bangunan untuk atap bocor, plafon rusak, dinding retak, kamar mandi, pagar, dan berbagai kerusakan lainnya dengan hasil rapi dan bergaransi."
 # save as draft
 draft: false
 ---

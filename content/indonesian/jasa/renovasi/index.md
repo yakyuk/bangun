@@ -3,7 +3,7 @@ title: "Renovasi"
 # meta title
 meta_title: "Merenovasi bangunan lama agar nampak baru atau modern"
 # meta description
-description: "This is meta description"
+description: "Jasa renovasi rumah dan bangunan di Sleman dan Yogyakarta. Dari perbaikan ringan hingga renovasi total dengan hasil berkualitas, rapi, dan bergaransi."
 # save as draft
 draft: false
 ---

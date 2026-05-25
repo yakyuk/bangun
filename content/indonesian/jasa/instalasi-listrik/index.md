@@ -3,7 +3,7 @@ title: "Instalasi Listrik"
 # meta title
 meta_title: ""
 # meta description
-description: "This is meta description"
+description: "Jasa instalasi listrik untuk rumah, kantor, dan bangunan. Melayani pemasangan baru, peremajaan kabel, penambahan titik listrik, serta perbaikan korsleting secara aman dan profesional."
 # save as draft
 draft: false
 ---

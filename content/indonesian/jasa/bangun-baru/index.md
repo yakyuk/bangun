@@ -1,9 +1,9 @@
 ---
 title: "Bangun Baru"
 # meta title
-meta_title: ""
+meta_title: "Jasa Bangun Rumah Baru dari Nol | Kontraktor Profesional Sleman & Yogyakarta"
 # meta description
-description: "This is meta description"
+description: "Jasa bangun rumah dan bangunan dari nol dengan perencanaan matang, tenaga berpengalaman, material berkualitas, serta hasil kokoh yang sesuai anggaran."
 # save as draft
 draft: false
 ---

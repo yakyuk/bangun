@@ -3,7 +3,7 @@ title: "Las & Aluminium"
 # meta title
 meta_title: ""
 # meta description
-description: "This is meta description"
+description: "Jasa las dan aluminium untuk pembuatan pagar, kanopi, etalase kaca, railing, tangga, hingga booth container dengan hasil presisi, kokoh, dan bergaransi."
 # save as draft
 draft: false
 ---
