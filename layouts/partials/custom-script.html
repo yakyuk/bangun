@@ -1,0 +1,34 @@
+<!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=AW-974178863"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "AW-974178863");
+
+  // Fungsi khusus untuk melacak klik WhatsApp
+  function kirimKonversiWA() {
+    // Pastikan library 'gtag' dari Google sudah siap digunakan
+    if (typeof gtag === "function") {
+      gtag("event", "conversion", {
+        send_to: "AW-974178863/_Pr-CJHX4rYcEK-Uw9AD",
+      });
+      console.log("Konversi WA berhasil dilaporkan.");
+    } else {
+      console.warn("Gtag belum siap atau diblokir oleh AdBlocker.");
+    }
+  }
+
+  document.addEventListener("click", function (event) {
+    if (event.target.closest(".js-wa-conversion")) {
+      // Jalankan fungsinya secara langsung atau panggil fungsi yang ada
+      if (typeof kirimKonversiWA === "function") {
+        kirimKonversiWA();
+      }
+    }
+  });
+</script>

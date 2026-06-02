@@ -7,6 +7,7 @@ button:
   enable: true
   label: "Mulai proyek sekarang 🚀"
   link: "https://s.id/Yakyuk-Bangun"
+  konversi_wa: true
 
 # don't create a separate page
 build:
