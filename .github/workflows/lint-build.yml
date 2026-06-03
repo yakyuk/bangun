@@ -102,4 +102,4 @@ jobs:
             ${{ runner.os }}-${{ env.CACHE_KEY }}
 
       - name: Build main site
-        run: npm run build:cache
+        run: pnpm run build
