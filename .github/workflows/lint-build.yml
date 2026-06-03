@@ -36,8 +36,8 @@ jobs:
   #     - name: Install dependencies
   #       run: pnpm install --frozen-lockfile # 👈 Faster, deterministic, and safe across platforms
 
-  #     - name: Check code formatting
-  #       run: pnpm run format # 👈 Changed from lint to format
+  #     - name: Lint scripts sources
+  #       run: pnpm run lint # 👈 need setting up eslint
 
   build:
     # Note: Linting is currently disabled because it is not critical
@@ -60,6 +60,12 @@ jobs:
         uses: actions/setup-go@v6
         with:
           go-version: ">1.0.0"
+
+      # 1. WAJIB: Instal aplikasinya dulu di komputer ini
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.2
 
       - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v6
