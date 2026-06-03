@@ -34,10 +34,18 @@ jobs:
         with:
           go-version: ${{ env.GO_VERSION }}
           cache: false
+
+      # 1. Install pnpm first so setup-node can configure caching for it
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.2
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
           node-version: ${{ env.NODE_VERSION }}
+          cache: "pnpm" # 👈 Enables automatic pnpm caching
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -63,9 +71,10 @@ jobs:
           echo "Go: $(go version)"
           echo "Hugo: $(hugo version)"
           echo "Node.js: $(node --version)"
+        # 2. Replaced npm dependency verification with clean pnpm install
       - name: Install Node.js dependencies
         run: |
-          [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
+          pnpm install --frozen-lockfile
       - name: Configure Git
         run: |
           git config core.quotepath false
@@ -76,10 +85,10 @@ jobs:
           path: ${{ runner.temp }}/hugo_cache
           key: hugo-${{ github.run_id }}
           restore-keys: hugo-
+        # 3. Changed commands to pnpm and removed the duplicate npm ci command
       - name: Build the site
         run: |
-          npm ci
-          npm run build
+          pnpm run build
       - name: Cache save
         id: cache-save
         uses: actions/cache/save@v5
