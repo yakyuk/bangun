@@ -4,37 +4,40 @@ on:
   push:
     tags:
       - v*
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 env:
-  CACHE_KEY: 'hugo-hinode-template'
-  CACHE_PATH_DEBIAN: '/tmp/hugo_cache_runner'
+  CACHE_KEY: "hugo-hinode-template"
+  CACHE_PATH_DEBIAN: "/tmp/hugo_cache_runner"
   CACHE_PATH_WIN: '~\AppData\Local\hugo_cache'
-  CACHE_PATH_MAC: '/Users/runner/Library/Caches/hugo_cache'
+  CACHE_PATH_MAC: "/Users/runner/Library/Caches/hugo_cache"
 
 jobs:
   lint:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check out repository
-      uses: actions/checkout@v6
+      - name: Check out repository
+        uses: actions/checkout@v6
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v6
-      with:
-        node-version: lts/*
-        cache: 'npm'
-        cache-dependency-path: '**/package-lock.json'
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.2 # 👈 Explicitly uses my pnpm version
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: lts/*
+          cache: "pnpm"
+          cache-dependency-path: "**/pnpm-lock.yaml"
 
-    # [24/AUG/23] Adjusted from npm ci to prevent EBADPLATFORM error due to fsevents
-    - name: Install npm
-      run: npm i
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile # 👈 Faster, deterministic, and safe across platforms
 
-    - name: Lint the source files
-      run: npm run lint      
+      - name: Lint the source files
+        run: pnpm run lint
 
   build:
     needs: lint
@@ -48,51 +51,45 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     steps:
-    - name: Check out repository
-      uses: actions/checkout@v6
+      - name: Check out repository
+        uses: actions/checkout@v6
 
-    - name: Install Go
-      uses: actions/setup-go@v6
-      with:
-        go-version: ">1.0.0"
+      - name: Install Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: ">1.0.0"
 
-    - name: Set up Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v6
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-        cache-dependency-path: '**/package-lock.json'
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "pnpm"
+          cache-dependency-path: "**/pnpm-lock.yaml"
 
-    - name: Install Dart Sass
-      run:  |
-        if [ "$RUNNER_OS" == "Linux" ]; then
-          sudo snap install dart-sass
-        elif [ "$RUNNER_OS" == "macOS" ]; then
-          brew install sass/sass/sass
-        elif [ "$RUNNER_OS" == "Windows" ]; then
-          choco install sass
-        fi
-      shell: bash
+      - name: Install Dart Sass
+        run: |
+          if [ "$RUNNER_OS" == "Linux" ]; then
+            sudo snap install dart-sass
+          elif [ "$RUNNER_OS" == "macOS" ]; then
+            brew install sass/sass/sass
+          elif [ "$RUNNER_OS" == "Windows" ]; then
+            choco install sass
+          fi
+        shell: bash
 
-    # [24/AUG/23] Adjusted from npm ci for non-macOS to prevent EBADPLATFORM error due to fsevents
-    - name: Perform clean install of npm
-      run:  |
-        if [ "$RUNNER_OS" == "macOS" ]; then
-          npm ci
-        else
-          npm i
-        fi
-      shell: bash
+      - name: Perform clean install of pnpm dependencies
+        run: pnpm install --frozen-lockfile # 👈 pnpm safely ignores cross-platform optional deps automatically!
+        shell: bash
 
-    # Cache Hugo cachedir and resourcedir (configured in config/ci/hugo.toml) for each OS
-    # No additional cache invalidation is needed, Hugo uses checksums itself
-    - name: Use Hugo cache
-      uses: actions/cache@v4
-      with:
-        path: ${{ runner.os == 'Windows' && env.CACHE_PATH_WIN || runner.os == 'macOS' && env.CACHE_PATH_MAC || env.CACHE_PATH_DEBIAN }}
-        key: ${{ runner.os }}-${{ env.CACHE_KEY }}
-        restore-keys: |
-          ${{ runner.os }}-${{ env.CACHE_KEY }}
+      # Cache Hugo cachedir and resourcedir (configured in config/ci/hugo.toml) for each OS
+      # No additional cache invalidation is needed, Hugo uses checksums itself
+      - name: Use Hugo cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.os == 'Windows' && env.CACHE_PATH_WIN || runner.os == 'macOS' && env.CACHE_PATH_MAC || env.CACHE_PATH_DEBIAN }}
+          key: ${{ runner.os }}-${{ env.CACHE_KEY }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.CACHE_KEY }}
 
-    - name: Build main site
-      run: npm run build:cache
+      - name: Build main site
+        run: npm run build:cache
