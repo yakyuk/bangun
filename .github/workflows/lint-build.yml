@@ -66,6 +66,12 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
           version: 10.33.2
+      # 🟢  MENGINTAL HUGO EXTENDED
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.155.0" # Samakan dengan versi di deploy.yaml Anda
+          extended: true # Wajib 'true' karena Hugoplate butuh versi Extended
 
       - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v6
