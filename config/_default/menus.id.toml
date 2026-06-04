@@ -13,62 +13,62 @@ name = "Jasa"
 [[main]]
 parent = "Jasa"
 name = "Bangun baru"
-url = "/jasa/bangun-baru"
+pageRef="/jasa/bangun-baru"
 weight=1
 
 [[main]]
 parent = "Jasa"
 name = "Renovasi"
-url = "/jasa/renovasi"
+pageRef="/jasa/renovasi"
 weight=2
 
 [[main]]
 parent = "Jasa"
 name = "Perbaikan"
-url = "/jasa/perbaikan"
+pageRef="/jasa/perbaikan"
 weight=3
 
 [[main]]
 parent = "Jasa"
 name = "Las & aluminium"
-url = "/jasa/las-dan-aluminium"
+pageRef="/jasa/las-dan-aluminium"
 weight=4
 
 [[main]]
 parent = "Jasa"
 name = "Instalasi listrik"
-url = "/jasa/instalasi-listrik"
+pageRef="/jasa/instalasi-listrik"
 weight=5
 
 [[main]]
 name = "Tentang kami"
-url = "/about"
+pageRef="/about"
 weight = 3
 
 [[main]]
 name = "Blog"
-url = "/blog"
+pageRef="/blog"
 weight = 4
 
 
 [[main]]
 name = "Kontak"
-url = "/contact"
+pageRef="/contact"
 weight = 5
 
 
 # footer menu
 [[footer]]
 name = "Tentang kami"
-url = "/about"
+pageRef="/about"
 weight = 1
 
 [[footer]]
 name = "Blog"
-url = "/blog"
+pageRef="/blog"
 weight = 2
 
 [[footer]]
 name = "Kebijakan Privasi"
-url = "/privacy-policy"
+pageRef="/pages/privacy-policy"
 weight = 3

@@ -13,62 +13,62 @@ name = "Services"
 [[main]]
 parent = "Services"
 name = "Build new"
-url = "/services/build-new"
+pageRef="/services/build-new"
 weight=1
 
 [[main]]
 parent = "Services"
 name = "Renovation"
-url = "/services/renovation"
+pageRef="/services/renovation"
 weight=2
 
 [[main]]
 parent = "Services"
 name = "Repair"
-url = "/services/repair"
+pageRef="/services/repair"
 weight=3
 
 [[main]]
 parent = "Services"
 name = "Welding & aluminium"
-url = "/services/welding-and-aluminium"
+pageRef="/services/welding-and-aluminium"
 weight=4
 
 [[main]]
 parent = "Services"
 name = "Electrical installation"
-url = "/services/electrical-installation"
+pageRef="/services/electrical-installation"
 weight=5
 
 [[main]]
 name = "About Us"
-url = "/about"
+pageRef="/about"
 weight = 3
 
 [[main]]
 name = "Blog"
-url = "/blog"
+pageRef="/blog"
 weight = 4
 
 
 [[main]]
 name = "Contact"
-url = "/contact"
+pageRef="/contact"
 weight = 5
 
 
 # footer menu
 [[footer]]
 name = "About Us"
-url = "/about"
+pageRef="/about"
 weight = 1
 
 [[footer]]
 name = "Blog"
-url = "/blog"
+pageRef="/blog"
 weight = 2
 
 [[footer]]
 name = "Privacy Policy"
-url = "/privacy-policy"
+pageRef="/pages/privacy-policy"
 weight = 3
