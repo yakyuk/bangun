@@ -33,8 +33,24 @@ jobs:
       - name: Update Hugo module dependencies
         id: mod-updates
         run: |
+          # Disable immediate exit on error to capture the output properly
+          set +e
           MOD_OUTPUT=$(pnpm run mod:update 2>&1)
+          EXIT_CODE=$?
+          set -e
+
+          # Ensure the command's full output is printed to the GitHub Actions log
+          echo "--- Hugo Module Update Output ---"
           echo "$MOD_OUTPUT"
+          echo "--------------------------------"
+
+          # Explicitly fail the step if the original command failed
+          if [ $EXIT_CODE -ne 0 ]; then
+            echo "Error: pnpm run mod:update failed with exit code $EXIT_CODE"
+            exit $EXIT_CODE
+          fi
+
+          # Process outputs if successful
           MOD_UPDATES=$(echo "$MOD_OUTPUT" | grep '^go: upgraded' | sed 's/go: / - /' | sort -u)
           echo 'MOD_UPDATES<<EOF' >> $GITHUB_OUTPUT
           echo "$MOD_UPDATES" >> "$GITHUB_OUTPUT"
