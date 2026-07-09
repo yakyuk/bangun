@@ -35,7 +35,7 @@ jobs:
         run: |
           # Disable immediate exit on error to capture the output properly
           set +e
-          MOD_OUTPUT=$(pnpm run mod:update 2>&1)
+          MOD_OUTPUT=$(pnpm run update-modules 2>&1)
           EXIT_CODE=$?
           set -e
 
@@ -46,7 +46,7 @@ jobs:
 
           # Explicitly fail the step if the original command failed
           if [ $EXIT_CODE -ne 0 ]; then
-            echo "Error: pnpm run mod:update failed with exit code $EXIT_CODE"
+            echo "Error: pnpm run update-modules failed with exit code $EXIT_CODE"
             exit $EXIT_CODE
           fi
 
