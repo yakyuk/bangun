@@ -27,7 +27,7 @@ jobs:
   #       with:
   #         version: 10.33.2 # 👈 Explicitly uses my pnpm version
   #     - name: Set up Node.js
-  #       uses: actions/setup-node@v6
+  #       uses: actions/setup-node@v7
   #       with:
   #         node-version: lts/*
   #         cache: "pnpm"
@@ -74,7 +74,7 @@ jobs:
           extended: true # Wajib 'true' karena Hugoplate butuh versi Extended
 
       - name: Set up Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: ${{ matrix.node-version }}
           cache: "pnpm"
