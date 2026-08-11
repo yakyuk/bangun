@@ -39,7 +39,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [navigation_button]
 enable = true
 label = "Youtube"
-link = "https://www.youtube.com/@YakyukBiz"
+link = "https://www.youtube.com/@tukangslemanjogja.yakyukbangun"
 
 [llms]
 # Set to false to disable /llms.txt generation
